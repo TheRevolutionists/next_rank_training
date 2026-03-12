@@ -558,3 +558,18 @@ a {
     flex-direction: column;
   }
 }
+.about-me-custom {
+  display: block;
+  text-align: left;
+  min-height: auto;
+}
+
+.about-me-custom p {
+  color: var(--muted);
+  line-height: 1.7;
+  margin-bottom: 12px;
+}
+
+.about-me-custom strong {
+  color: var(--text);
+}
